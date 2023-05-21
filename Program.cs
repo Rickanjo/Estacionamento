@@ -1,13 +1,13 @@
-﻿Console.WriteLine("Informe o tamanho do veículo [P]equeno ou [G]rande:");
+﻿Console.Write("Informe o tamanho do veículo [P]equeno ou [G]rande: ");
 string tamanho = Console.ReadLine()!;
 
-Console.WriteLine("Informe o tempo de permanência (em minutos):");
+Console.Write("Informe o tempo de permanência (em minutos): ");
 int tempo = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Foi utilizado o serviço de valet? [S]im ou [N]ão:");
+Console.Write("Foi utilizado o serviço de valet? [S]im ou [N]ão: ");
 string valet = Console.ReadLine()!;
 
-Console.WriteLine("Deseja incluir o serviço de lavagem? [S]im ou [N]ão:");
+Console.Write("Deseja incluir o serviço de lavagem? [S]im ou [N]ão: ");
 string lavagem = Console.ReadLine()!;
 
 double valorHoraAdicional = (tamanho == "G") ? 20.0 : 10.0;
